@@ -16,7 +16,7 @@ public class ColorChooser extends JFrame implements ChangeListener{
 	
 	public ColorChooser() throws HeadlessException {
 		// TODO Auto-generated constructor stub
-		this.setSize(500, 600);
+		this.setSize(600, 600);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		
 		ch = new JColorChooser();
